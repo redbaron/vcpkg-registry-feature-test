@@ -8,7 +8,7 @@ vcpkg_from_github(
 )
 
 if ("feature-a" IN_LIST FEATURES)
-	MESSAGE(WARNING "Feaute A is enabled")
+	MESSAGE(FATAL_ERROR "Feature A doesn't exist and should never be set")
 endif ()
 
 vcpkg_configure_cmake(

@@ -1,6 +1,12 @@
 {
-	"name": "beicode",
-	"version": "1.0.0",
-	"description": "A simple utf-8 based unicode decoding and encoding library",
-	"homepage": "https://github.com/northwindtraders/beicode"
+  "name": "beicode",
+  "version": "1.0.0",
+  "port-version": 1,
+  "description": "A simple utf-8 based unicode decoding and encoding library",
+  "homepage": "https://github.com/northwindtraders/beicode",
+  "features": {
+    "feature-a": {
+      "description": "Feature A"
+    }
+  }
 }
